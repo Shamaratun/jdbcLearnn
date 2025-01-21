@@ -2,6 +2,7 @@ package classWork20january;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.List;
 import java.util.Scanner;
 
 public class ReadFileMustLearn {
@@ -19,6 +20,11 @@ public class ReadFileMustLearn {
             System.out.println("An error occurred. File not found.");
         }
     }
-}
+
+    public void readfile() {
+    }
+
+
+    }
 
 

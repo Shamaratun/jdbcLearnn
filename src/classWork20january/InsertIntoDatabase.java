@@ -1,6 +1,6 @@
 package classWork20january;
 
-public class MainRead {
+public class InsertIntoDatabase {
     public static void main(String[] args) {
 
             String[][] product = {
