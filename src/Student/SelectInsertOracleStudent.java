@@ -1,8 +1,11 @@
+package Student;
+
 import java.sql.*;
 public class SelectInsertOracleStudent extends Oracle {
 
         public void selectAllStudents() {
             String selectQuery = "SELECT * FROM studentjdbc";
+
 
             try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
                  Statement statement = connection.createStatement();
