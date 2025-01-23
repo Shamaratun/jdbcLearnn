@@ -6,7 +6,6 @@ public class Main {
 
         LibrarySystem book = new LibrarySystem();
         book.LibrarySystem();
-
         while (true) {
             System.out.println("\nLibrary Menu:");
             System.out.println("1. List of books");
@@ -16,8 +15,8 @@ public class Main {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
-
+            scanner.nextLine(); 
+            
             switch (choice) {
                 case 1:
                     LibrarySystem.bookList();
